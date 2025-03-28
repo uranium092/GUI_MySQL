@@ -16,6 +16,7 @@ public class ConnectionDB {
 			reader.close();
 			connection=DriverManager.getConnection(args[0],args[1],args[2]);
 		}catch(Exception e) {
+      // wrong credentials
 			JOptionPane.showMessageDialog(null, "Error de parametros en la conexión","Error de conexión",JOptionPane.ERROR_MESSAGE);
 			System.exit(0);
 		}
