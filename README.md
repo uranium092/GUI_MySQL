@@ -1,6 +1,6 @@
 # MySQL Data View
 
-Programa que proporciona una interfaz intuitiva para la gestión de bases de datos MySQL, eliminando la necesidad de utilizar comandos SQL. La aplicación lee los datos de conexión desde un archivo .txt y permite la visualización de datos en tablas, así como operaciones de eliminación (única y múltiple), actualización (directamente en las celdas de la tabla).
+Programa que proporciona una interfaz intuitiva para la gestión de bases de datos MySQL. Lee los datos de conexión desde un archivo .txt y permite la visualización de datos en tablas, así como operaciones de eliminación (única y múltiple), actualización (directamente en las celdas de la tabla).
 
 **Tecnologías Utilizadas:** Java, JDBC, Swing
 
