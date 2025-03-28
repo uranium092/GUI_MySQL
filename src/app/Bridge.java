@@ -1,4 +1,4 @@
-package Universal;
+package app;
 
 import java.awt.event.*;
 import java.sql.*;
@@ -13,12 +13,12 @@ import javax.swing.table.DefaultTableModel;
 
 public class Bridge {
 	private JComboBox<String>menu;
-	private Interface interfaceComponent;
+	private View interfaceComponent;
 	private JPanel tableContainer;
 	private Connection connection;
 	private Statement statamentOperations;
 	
-	public Bridge(Interface i){
+	public Bridge(View i){
 		interfaceComponent=i;
 		tableContainer=interfaceComponent.getTableContainer();
 		menu=interfaceComponent.getMenu();

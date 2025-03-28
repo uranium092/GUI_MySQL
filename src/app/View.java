@@ -1,15 +1,15 @@
-package Universal;
+package app;
 import java.awt.*;
 
 import javax.swing.*;
-public class Interface extends JFrame{
+public class View extends JFrame{
 	public static void main(String[] args) {
-		new Interface();
+		new View();
 	}
 	private JComboBox<String>menu;
 	private JPanel tableContainer;
 	private JButton deleteButton;
-	public Interface(){
+	public View(){
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setBounds(700,100,500,400);
 		JPanel panel=new JPanel();

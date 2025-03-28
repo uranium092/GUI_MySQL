@@ -1,1 +1,5 @@
-.settings
+.settings/
+bin/
+.classpath
+.project
+desktop.ini

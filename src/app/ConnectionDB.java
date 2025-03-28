@@ -1,4 +1,4 @@
-package Universal;
+package app;
 
 import java.io.*;
 import java.sql.*;
@@ -9,7 +9,7 @@ public class ConnectionDB {
 	public ConnectionDB(){
 		try {
 			String[]args=new String[3];
-			BufferedReader reader=new BufferedReader(new FileReader("C:/Users/garci/Downloads/DatosConexion.txt"));
+			BufferedReader reader=new BufferedReader(new FileReader("credentials.txt"));
 			for(int x=0;x<3;x++) {
 				args[x]=reader.readLine();
 			}
